@@ -1,5 +1,5 @@
 package com.testweaver.model;
 
-public enum TestStaus {
+public enum TestStatus {
     PENDING, PASS, FAIL
 }
