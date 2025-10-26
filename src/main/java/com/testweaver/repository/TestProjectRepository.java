@@ -1,4 +1,4 @@
-package com.testweaver.respository;
+package com.testweaver.repository;
 
 import com.testweaver.domain.entity.TestProject;
 import org.springframework.data.jpa.repository.JpaRepository;
