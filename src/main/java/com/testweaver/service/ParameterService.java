@@ -15,7 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
 
-@Service @RequiredArgsConstructor
+@Service 
+@RequiredArgsConstructor
 public class ParameterService {
     private final ParameterRepository paramRepo;
     private final ParameterValueRepository valueRepo;
