@@ -18,9 +18,9 @@ import java.util.*;
 @Service 
 @RequiredArgsConstructor
 public class ParameterService {
-    private final ParameterRepository paramRepo;
-    private final ParameterValueRepository valueRepo;
-    private final TestProjectService projectService;
+    private final ParameterRepository paramRepo = null;
+    private final ParameterValueRepository valueRepo = null;
+    private final TestProjectService projectService = null;
 
     @Transactional
     public ParameterDtos.ParamResp create(Long projectId, ParameterDtos.CreateReq req) {
