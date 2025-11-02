@@ -7,7 +7,9 @@ import java.util.*;
 @Component
 public class IPOGenerator implements PairwiseStrategy{
     @Override
-    public String name() { return "IPO";}
+    public String name() {
+        return "IPO";
+    }
 
     @Override
     public List<Map<String, String>> generate(Map<String, List<String>> params, int strength) {
